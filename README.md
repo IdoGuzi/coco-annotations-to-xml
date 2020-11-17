@@ -39,10 +39,13 @@ USAGE
 
 -> Download the required annotation files- you may do so from the official COCO dataset (link given above)
 
--> Change the code accordingly  based on whether the annotation is from train/val (or something else. If something else, the coco annotation format MUST be maintained, .json file and all)
+-> Change the code accordingly based on whether the annotation is from train/val (or something else. If something else, the coco annotation format MUST be maintained, .json file and all)
 
 -> Run coco_get_annotations_xml_format.py
 
 -> Get your .xml files, and do what you need to do with them.
+
+-> If some .xml files is missing (for any reason),  
+you can create "empty" (xml data without object boxes), run verify.py
 
 ![labelimg](https://user-images.githubusercontent.com/58288779/78465309-95911f80-7726-11ea-9a6b-71155412b21e.png)
